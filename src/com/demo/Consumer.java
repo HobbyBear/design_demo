@@ -1,6 +1,8 @@
 package com.demo;
 
-public interface Consumer {
+import java.io.Serializable;
+
+public interface Consumer extends Serializable {
     String getName();
 
     Integer getPower();
